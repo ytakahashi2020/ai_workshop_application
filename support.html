@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート | CounterAppTest</title>
+<style>
+  :root{--teal:#3f98a6;--teal-soft:#e4f3f5;--ink:#1f2a2e;--muted:#5c6b70;--line:#d5e3e6;--bg:#fbfdfd}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.8 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif}
+  main{max-width:680px;margin:0 auto;padding:48px 20px 64px}
+  header{display:flex;align-items:center;gap:16px;margin-bottom:32px}
+  .ring{width:56px;height:56px;border-radius:14px;background:var(--teal);display:grid;place-items:center;box-shadow:inset 0 0 0 6px #5fb3bf,inset 0 0 0 12px var(--teal)}
+  .ring span{width:26px;height:26px;border-radius:50%;background:#fff;display:grid;place-items:center;font-weight:800;font-size:12px;color:var(--ink)}
+  h1{font-size:1.6rem;line-height:1.3;margin:0}
+  header p{margin:2px 0 0;color:var(--muted);font-size:.9rem}
+  h2{font-size:1.1rem;margin:36px 0 8px;padding-top:20px;border-top:1px solid var(--line)}
+  p,li{margin:0 0 10px}
+  ul{padding-left:1.2em}
+  .lead{background:var(--teal-soft);border-radius:10px;padding:16px 18px;font-weight:600}
+  a{color:#1d6f7c}
+  a:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+  .en{color:var(--muted);font-size:.93rem}
+  footer{margin-top:48px;color:var(--muted);font-size:.85rem}
+</style>
+
+</head>
+<body>
+<main>
+<header>
+  <div class="ring" aria-hidden="true"><span>10</span></div>
+  <div><h1>CounterAppTest サポート</h1><p>タップカウンター</p></div>
+</header>
+
+<p>画面をタップすると数が 1 つずつ増える、シンプルなカウンターです。タップするたびに軽く、10 回ごとに少し強く震えてお知らせします。</p>
+
+<h2>使い方</h2>
+<ul>
+  <li>画面のどこかをタップすると、数が 1 増えます。</li>
+  <li>10、20、30…と 10 の倍数になると、少し強めに震えて画面が一瞬光ります。</li>
+  <li>下の「リセット」を押すと 0 に戻ります。</li>
+</ul>
+
+<h2>よくある質問</h2>
+<p><b>震えません。</b><br>iPhone の「設定」→「サウンドと触覚」で「システムの触覚」がオンになっているか確認してください。低電力モードの間は振動が弱くなったり止まったりすることがあります。</p>
+<p><b>アプリを閉じると数が 0 に戻ります。</b><br>このアプリは数を保存しません。開いている間だけ数える仕様です。</p>
+
+<h2>お問い合わせ</h2>
+<p>不具合やご意見は、こちらまでメールでお送りください。<br><a href="mailto:support@example.com">support@example.com</a></p>
+
+<h2 lang="en">Support (English)</h2>
+<div class="en" lang="en">
+<p>Tap anywhere to count up. Each tap gives a light vibration, and every multiple of 10 gives a stronger one with a brief flash, and Reset returns the count to 0. If you feel no vibration, check that System Haptics is on in Settings → Sounds &amp; Haptics. For help, email <a href="mailto:support@example.com">support@example.com</a>.</p>
+</div>
+
+<footer><a href="privacy.html">プライバシーポリシー</a></footer>
+</main>
+</body>
+</html>
