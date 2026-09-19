@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "authentic-blue-bagel",
-    "slug": "snack-2ce087c3-ea90-4bc8-8710-688279766c9c",
+    "name": "タップカウンター",
+    "slug": "counter-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,9 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ytakahashi2020.tapcounter"
     },
     "android": {
+      "package": "com.ytakahashi2020.tapcounter",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -24,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4b59b20d-93f3-4604-987b-c4e35af930b9"
+      }
     }
   }
 }
